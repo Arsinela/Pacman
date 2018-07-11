@@ -64,6 +64,7 @@ void labirint()
 			for (j = 0; j < 22; j++)
 		{
 			if ((j == 1) || (j == 4) || (j == 6) || (j == 14) || (j == 18) || (j == 20))
+
 				mas[i][j] = 0;
 			else
 				if (j == 10) mas[i][j] = 2;
